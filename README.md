@@ -1,3 +1,16 @@
+# React Server-Side Rendering Example
+
+## Learning Project
+
+**React: Software Architecture by Shaun Wassell:** https://www.linkedin.com/learning/react-software-architecture \
+**Projects List:** https://github.com/stijn-veren/projects-list
+
+## Resources
+
+...
+
+---
+
 # React: Software Architecture
 This is the repository for the LinkedIn Learning course React: Software Architecture. The full course is available from [LinkedIn Learning][lil-course-url].
 
