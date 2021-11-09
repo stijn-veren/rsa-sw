@@ -11,6 +11,13 @@ React Router DOM:
 - https://www.npmjs.com/package/react-router-dom
 - https://reactrouter.com
 
+Babel:
+- https://github.com/babel/babel
+
+Nodemon:
+- https://nodemon.io
+- https://www.npmjs.com/package/nodemon
+
 ---
 
 # React: Software Architecture
