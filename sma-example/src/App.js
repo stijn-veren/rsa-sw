@@ -1,11 +1,12 @@
-import { CounterButton } from "./CounterButton"
+import { CounterButton } from './CounterButton'
+import { CounterProvider } from './CounterProvider'
 
 const App = () => {
   return (
-    <div className="App">
+    <CounterProvider>
       <h1>State Management Example</h1>
       <CounterButton />
-    </div>
+    </CounterProvider>
   )
 }
 
