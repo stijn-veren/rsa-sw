@@ -22,6 +22,20 @@ Express:
 - https://expressjs.com
 - https://www.npmjs.com/package/express
 
+## Notes
+
+To start the server run
+
+```
+npx nodemon --exec npx babel-node server.js
+```
+
+### After some changes
+
+```
+npm run build
+```
+
 ---
 
 # React: Software Architecture
