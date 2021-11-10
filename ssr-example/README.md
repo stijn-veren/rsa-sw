@@ -26,18 +26,21 @@ Express:
 - https://expressjs.com
 - https://www.npmjs.com/package/express
 
+styled-components:
+- https://styled-components.com
+
 ## Notes
 
-To start the server run
-
-```
-npx nodemon --exec npx babel-node server.js
-```
-
-### After some changes
+### after some changes
 
 ```
 npm run build
+```
+
+### and to start the server from production build, run
+
+```
+npx nodemon --exec npx babel-node server.js
 ```
 
 ---
