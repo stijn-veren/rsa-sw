@@ -1,3 +1,17 @@
+# React State Management Architecture Example
+
+## Learning Project
+
+**React: Software Architecture by Shaun Wassell:** https://www.linkedin.com/learning/react-software-architecture \
+**Projects List:** https://github.com/stijn-veren/projects-list
+
+## Resources
+
+Recoil:
+- https://recoiljs.org
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
