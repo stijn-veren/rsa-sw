@@ -5,7 +5,6 @@ import { StaticRouter } from 'react-router-dom'
 import path from 'path'
 import fs from 'fs'
 import App from './src/App'
-import { directive } from '@babel/types'
 
 const app = express()
 
