@@ -1,6 +1,4 @@
-import { useState, useContext } from 'react'
 import { useRecoilState } from 'recoil'
-import { CounterContext } from './CounterContext'
 import { counterState } from './counterState'
 import { incrementByState } from './incrementByState'
 
