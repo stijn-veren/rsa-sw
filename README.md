@@ -50,6 +50,14 @@ styled-components:
 
 - https://styled-components.com
 
+Redux:
+
+- https://redux.js.org
+
+MobX:
+
+- https://mobx.js.org/README.html
+
 ### Notes
 
 #### after some changes
