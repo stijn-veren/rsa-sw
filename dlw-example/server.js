@@ -11,6 +11,17 @@ const app = express()
 
 app.use(express.static('./build', { index: false }))
 
+const articles = [
+  { title: 'Article 1', author: 'Bob' },
+  { title: 'Article 2', author: 'Betty' },
+  { title: 'Article 3', author: 'Frank' },
+]
+
+app.get('/api/articles', (req, res) => {
+  const loadedArticles = articles
+  res.json(loadedArticles)
+})
+
 app.get('/*', (req, res) => {
   const sheet = new ServerStyleSheet()
 
@@ -23,19 +34,19 @@ app.get('/*', (req, res) => {
   )
 
   const templateFile = path.resolve('./build/index.html')
-
   fs.readFile(templateFile, 'utf8', (err, data) => {
     if (err) {
       return res.status(500).send(err)
     }
 
     return res.send(
-      data.replace('<div id="root></div>', `<div id="root">${reactApp}</div>`)
+      data
+        .replace('<div id="root"></div>', `<div id="root">${reactApp}</div>`)
         .replace('{{ styles }}', sheet.getStyleTags())
     )
   })
 })
 
 app.listen(8080, () => {
-  console.log('Server is listening on posrt 8080')
+  console.log('Server is listening on port 8080')
 })
