@@ -1,3 +1,4 @@
+import 'isomorphic-fetch'
 import express from 'express'
 import React from 'react'
 import { ServerStyleSheet } from 'styled-components'
@@ -6,7 +7,7 @@ import { StaticRouter } from 'react-router-dom'
 import path from 'path'
 import fs from 'fs'
 import App from './src/App'
-import { InitialDataContext } from './InitialDataContext'
+import { InitialDataContext } from './src/InitialDataContext'
 
 global.window = {}
 
