@@ -58,6 +58,10 @@ MobX:
 
 - https://mobx.js.org/README.html
 
+isomorphic-fetch:
+
+- https://github.com/matthew-andrews/isomorphic-fetch
+
 ### Notes
 
 #### after some changes
